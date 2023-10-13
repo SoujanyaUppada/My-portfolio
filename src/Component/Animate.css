@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+.title{
+    
+  background-image: linear-gradient(
+    -225deg,
+    #f3e00d 0%,
+    #2bf103 29%,
+    #0858fa 67%,
+    #0af2ea 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+      
+      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.content{
+    animation-name: spin, depth;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  font-size: 50px;
+  
+
+  margin-right: 90px;
+ 
+}
+.title{
+  font-family:"fantasy";
+}
