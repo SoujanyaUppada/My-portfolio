@@ -11,7 +11,7 @@ const Sociallinks = () => {
             Linkedin <FaLinkedin size={30} />
             </> 
         ),
-        href:"https://linkedin.com/in/uppada-soujanya-2b5159214",
+        href:"https://linkedin.com/in/uppada-soujanya",
         style:"rounded-tr-md"
 
         },
